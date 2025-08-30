@@ -13,7 +13,7 @@ constexpr int BOARD_SIZE     = 8;
 constexpr int MAX_DEPTH      = 6;           // Default max depth for iterative deepening
 constexpr int MATE_SCORE     = 100000;
 constexpr int INFINITY_SCORE = 100000000;
-constexpr int QSEARCH_DEPTH  = 4;           // Depth limit for quiescence search (optional)
+constexpr int QSEARCH_DEPTH  = 4;           // Depth limit for quiescence search 
 constexpr double DEFAULT_TIME_LIMIT = 5.0;  // 5 seconds as an example
 
 // Piece Encoding
